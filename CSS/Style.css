@@ -49,6 +49,7 @@ section.hero h1 {
 	font-size: 9rem;
 	font-weight: 700;
 	margin: 0;
+	margin-bottom: -3rem;
 	z-index: 1;
 }
 
@@ -64,9 +65,9 @@ section.hero a {
 	font-weight: bold;
 	text-decoration: none;
 	background: lightgray;
-	padding: 2rem 3rem;
+	padding: 1rem 3rem;
 	color: #CD5C5C;
-	border-radius: 7px;
+	border-radius: 10px;
 	z-index: 1;
 }
 
