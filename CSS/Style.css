@@ -33,6 +33,11 @@ section.hero {
 	color: black;
 }
 
+section.summary {
+	font-size: 30;t
+	font-weight: 20;
+}
+
 section.hero::after {
 	content: "";
 	position: absolute;
@@ -49,7 +54,7 @@ section.hero h1 {
 	font-size: 9rem;
 	font-weight: 700;
 	margin: 0;
-	margin-bottom: -3rem;
+	margin-bottom: -2rem;
 	z-index: 1;
 }
 
@@ -57,14 +62,14 @@ section.hero p {
 	font-size: 4rem;
 	font-weight: 200;
 	margin: 0;
-	margin-bottom: 2rem;
+	margin-bottom: 3rem;
 	z-index: 1;
 }
 
 section.hero a {
 	font-weight: bold;
 	text-decoration: none;
-	background: lightgray;
+	background: white;
 	padding: 1rem 3rem;
 	color: #CD5C5C;
 	border-radius: 10px;
@@ -73,5 +78,5 @@ section.hero a {
 
 secion.hero a:hover {
 	color: black;
-	background: darkgrey;
+	background: #eee;
 }
