@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills&display=swap');
+
+body {
+	font-family: 'Stick No Bills', sans-serif;
+}
+
+nav.primary-navbar{
+	display: flex;
+	padding: 2rem;
+}
+
+nav.primary-navbar ul.nav {
+	display: flex;
+	list-style: none;
+	padding: 0;
+}
+
+nav.primary-navbar ul.nav li a {
+	padding: 0.5rem 1rem;
+}
+
+section.hero {
+	width: 100vw;
+	height: 100vh;
+	background: indianred;
+	text-align: center;
+	display: inline-flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: safe center;
+	color: black;
+}
+
+section.hero h1 {
+	font-size: 9rem;
+	font-weight: 700;
+	margin: 0;
+}
+
+section.hero p {
+	font-size: 5rem;
+	font-weight: 200;
+	margin: 0;
+	margin-bottom: 3rem;
+}
+
+section.hero a {
+	font-weight: bold;
+	text-decoration: none;
+	background: lightgray;
+	padding: 1rem 3rem;
+	color: indianred;
+	border-radius: 5px;
+}
+
+secion.hero a:hover {
+	color: black;
+	background: darkgrey;
+}
