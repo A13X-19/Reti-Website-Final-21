@@ -6,17 +6,34 @@ body {
 
 nav.primary-navbar{
 	display: flex;
-	padding: 2rem;
+	width: 100%;
 }
 
 nav.primary-navbar ul.nav {
 	display: flex;
+	margin-left: auto;
 	list-style: none;
 	padding: 0;
 }
 
 nav.primary-navbar ul.nav li a {
 	padding: 0.5rem 1rem;
+	text-decoration: none;
+}
+
+nav.primary-navbar ul.nav li a:hover
+nav.primary-navbar ul.nav li a:focus {
+	text-decoration: underline;
+}
+
+nav.primary-navbar-home {
+	position: relative;
+	z-index: 10;
+	margin-bottom: -121px;
+}
+
+nav.primary-navbar ul.nav li a {
+	color: mediumvioletred;
 }
 
 section.hero {
