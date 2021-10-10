@@ -1,40 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills&display=swap');
 
+{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	background-color: #6b6969;
+}
+
+li, a, button {
+	font-family: "Stick No Bills", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: #808080;
+	text-decoration: none;
+}
+
+header {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 30px 10%;
+}
+
+.reti_asset {
+	width: 300px;
+	cursor: pointer;
+	margin-right: auto;
+}
+
+.primary-navbar li {
+	display: inline-block;
+	padding: 0px 20 px;
+}
+
+.primary-navbar li a {
+	transition: all 0.3s ease 0s;
+}
+
+.primary-navbar li a:hover {
+	transition: all 0.3s ease 0s;
+	color: #0088a9;
+}
+
+button {
+	margin-left: 20px;
+	padding: 9px 25 px;
+	background-color: rgb(113,205,227);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+
+button:hover {
+	background-color: rgba(0, 136, 0, 0.8);
+}
+
+
 body {
 	font-family: 'Stick No Bills', sans-serif;
 }
 
-nav.primary-navbar{
-	display: flex;
-	width: 100%;
-}
-
-nav.primary-navbar ul.nav {
-	display: flex;
-	margin-left: auto;
-	list-style: none;
-	padding: 0;
-}
-
-nav.primary-navbar ul.nav li a {
-	padding: 0.5rem 1rem;
-	text-decoration: none;
-}
-
-nav.primary-navbar ul.nav li a:hover
-nav.primary-navbar ul.nav li a:focus {
-	text-decoration: underline;
-}
-
-nav.primary-navbar-home {
-	position: relative;
-	z-index: 10;
-	margin-bottom: -121px;
-}
-
-nav.primary-navbar ul.nav li a {
-	color: mediumvioletred;
-}
 
 section.hero {
 	position: relative;
@@ -48,6 +74,15 @@ section.hero {
 	align-content: center;
 	justify-content: center;
 	color: black;
+}
+
+.summary{
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.RWTS_1{
+	width: 300px;
 }
 
 section.summary {
