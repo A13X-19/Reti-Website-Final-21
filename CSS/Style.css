@@ -23,29 +23,70 @@ header {
 }
 
 .reti_asset {
-	width: 300px;
+	width: 250px;
 	cursor: pointer;
 	margin-right: auto;
 }
 
-.primary-navbar li {
+footer {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 30px 10%;
+	list-style: none;
+}
+
+footer li {
 	display: inline-block;
 	padding: 0px 20 px;
 }
 
-.primary-navbar li a {
+footer li a {
 	transition: all 0.3s ease 0s;
 }
 
-.primary-navbar li a:hover {
-	transition: all 0.3s ease 0s;
+footer li a:hover,
+footer li a:focus {
 	color: #0088a9;
+	text-decoration: underline;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.navbar-home {
+	list-style: none;
+}
+
+.navbar-home li {
+	display: inline-block;
+	padding: 0px 20 px;
+}
+
+.navbar-home li a {
+	transition: all 0.3s ease 0s;
+}
+
+.navbar-home li a:hover,
+.navbar-home li a:focus {
+	color: #0088a9;
+	text-decoration: underline;
+}
+
+@media screen and (min-width: 480px) {
+	.navbar-home {
+		margin-left: auto;
+		display: flex;
+		padding: 2rem;
+	}
 }
 
 button {
 	margin-left: 20px;
 	padding: 9px 25 px;
-	background-color: rgb(113,205,227);
+	background-color: rgb(205, 92, 92);
 	border: none;
 	border-radius: 50px;
 	cursor: pointer;
@@ -53,7 +94,7 @@ button {
 }
 
 button:hover {
-	background-color: rgba(0, 136, 0, 0.8);
+	background-color: rgb(113,205,227);
 }
 
 
@@ -64,8 +105,8 @@ body {
 
 section.hero {
 	position: relative;
-	width: 100vw;
-	height: 100vh;
+	width: 90vw;
+	height: 90vh;
 	background: url("../Images/Hero Background 1.jpg") center center #CD5C5C;
 	background-size: cover;
 	text-align: center;
@@ -76,18 +117,24 @@ section.hero {
 	color: black;
 }
 
-.summary{
+.summary {
 	margin: 0 auto;
 	width: 1000px;
 }
 
-.RWTS_1{
+.RWTS_1 {
 	width: 300px;
 }
 
+.old_retipharmacy {
+  padding: 5px;
+  width: 10px;
+}
+
+
 section.summary {
-	font-size: 30;
-	font-weight: 20;
+	font-size: 20;
+	font-weight: 10;
 }
 
 section.hero::after {
@@ -103,12 +150,29 @@ section.hero::after {
 }
 
 section.hero h1 {
-	font-size: 9rem;
-	font-weight: 700;
+	font-size: 3.5rem;
+	font-weight: 600;
 	margin: 0;
 	margin-bottom: -2rem;
 	z-index: 1;
 }
+
+section.hero h2 {
+	font-size: 4rem;
+	font-weight: 600;
+	margin: 0;
+	margin-bottom: -2rem;
+	z-index: 1;
+}
+
+@media screen and (min-width: 480px) {
+	.navbar-home {
+		margin-left: auto;
+		display: flex;
+		padding: 2rem;
+	}
+}
+
 
 section.hero p {
 	font-size: 4rem;
@@ -117,6 +181,7 @@ section.hero p {
 	margin-bottom: 3rem;
 	z-index: 1;
 }
+
 
 section.hero a {
 	font-weight: bold;
@@ -132,3 +197,36 @@ secion.hero a:hover {
 	color: black;
 	background: #eee;
 }
+
+@media (max-width: 480px) {
+	p {
+		font-size: 1.26rem;
+		line-height: 1.5;
+	}
+}
+
+.navbar-learn {
+	list-style: none;
+}
+
+.navbar-learn li {
+	display: inline-block;
+	padding: 0px 20 px;
+}
+
+@media screen and (min-width: 480px) {
+	.navbar-learn {
+		margin-left: auto;
+		display: flex;
+		padding: 2rem;
+	}
+}
+
+.navbar-learn li a {
+	transition: all 0.3s ease 0s;
+}
+
+.navbar-learn li a:hover,
+.navbar-learn li a:focus {
+	color: #0088a9;
+	text-decoration: underline;
